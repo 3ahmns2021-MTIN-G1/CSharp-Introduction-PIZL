@@ -1,5 +1,5 @@
 ﻿// Bibliotheken/Asembly Refernce/Namespace
-
+// grau: noch nichts aus dieser Bibliothek (vorgefertigte Klasse) verwendet, genannt
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +15,7 @@ using UnityEngine;
 // Klasse:  Säugetiere  -> Unterklasse: Hund
 //                      -> Unterklasse: Katze
 
-public class ExampleClass : MonoBehaviour
+public class ExampleClass : UnityEngine.MonoBehaviour
 {
 
 }
