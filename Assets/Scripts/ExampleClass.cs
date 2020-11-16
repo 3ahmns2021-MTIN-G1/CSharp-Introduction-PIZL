@@ -15,7 +15,26 @@ using UnityEngine;
 // Klasse:  Säugetiere  -> Unterklasse: Hund
 //                      -> Unterklasse: Katze
 
-public class ExampleClass : UnityEngine.MonoBehaviour
+public class ExampleClass : MonoBehaviour
 {
+    // Deklaration von Variablen
+    // Variablen sind Container für Value (Werte) oder Refernces (Verweise)
 
+    // Variablentypen mit Values (Werten)
+    // public                 -> access modifier (Wer darf von außen auf die Variable zugreifen)
+    // int                    -> Variablen Typ (In diesem Fall ein Integer - Ganze Zahl)
+    // ganzeZahlVariable      -> Identifier (Name der Variable)
+    // ;                      -> Ende des Statements (Deklaration der Variable)
+
+    public int ganzeZahlVariable; // Ganze Zahlen - Integer - Instanzvariable
+    // Gleitkommazahlen
+    // Text
+    // Binäre Entscheidung (Boolscher Wert)
+
+
+    public void TestFunktion()
+    {
+        // Variablen die NUR innerhalb der FUnktion gültig ist
+    }
+    
 }
